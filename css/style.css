@@ -43,6 +43,7 @@ main {
     justify-content: space-around;
     align-items: center;
     gap: 10px;
+    margin: 20px;
 }
 
 .ingredient {
@@ -55,4 +56,30 @@ main {
     border: 2px solid #1212b2;
     border-radius: 20px;
     cursor: pointer;
+}
+
+.bowl {
+    display: grid;
+    grid-template-columns: repeat(3,172px);
+}
+
+.bowl-slot {
+    width: 100%;
+    background-color: white;
+    border: 2px solid #1212b2;
+    padding: 12px;
+    font-size: 46px;
+    text-align: center;
+}
+
+.bowl-slot:first-child {
+    border-radius: 20px 0 0 20px;
+}
+
+.bowl-slot:last-child {
+    border-radius: 0 20px 20px 0;
+}
+
+.bowl-slot:not(:last-child) {
+    border-right: none;
 }
