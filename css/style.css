@@ -25,3 +25,34 @@ header .logo {
     position: relative;
     margin-top: 10px;
 }
+
+main {
+    text-align: center;
+
+}
+
+.container {
+    max-width: 540px;
+    margin: 0 auto;
+    padding: 32px 12px;
+}
+
+.ingredients {
+    display: grid;
+    grid-template-columns: repeat(4,80px);
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.ingredient {
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+    background-color: #a1d2ff;
+    text-align: center;
+    line-height: 2;
+    border: 2px solid #1212b2;
+    border-radius: 20px;
+    cursor: pointer;
+}
