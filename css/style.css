@@ -94,3 +94,72 @@ main {
     border: none;
     border-radius: 20px;
 }
+
+.loading {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 999;
+    background-color: rgb(255 170 251/ 85%);
+}
+
+.loading-message {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+.hidden {
+    display:  none;
+} 
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(255 170 251/ 85%);
+    padding: 24px;
+}
+
+.modal-box {
+    position: relative;
+    width: 100%;
+    max-width: 512px;
+    background-color: #ffffff;
+    border: 2px solid #1212b2;
+    border-radius: 10px;
+    margin:24px auto;
+}
+
+.modal-image {
+    background-image: url("/img/loader.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 250px;
+}
+
+.modal-content {
+    padding: 24px;
+}
+
+.modal-close {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 12px;
+    right:12px;
+    height: 36px;
+    width: 36px;
+    border: 2px solid #1212b2;
+    border-radius: 50px;
+    cursor: pointer;
+}
