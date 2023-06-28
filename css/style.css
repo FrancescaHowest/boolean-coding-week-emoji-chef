@@ -94,3 +94,23 @@ main {
     border: none;
     border-radius: 20px;
 }
+
+.loading {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 999;
+    background-color: rgb(255 170 251/ 85%);
+}
+
+.loading-message {
+    font-size: 24px;
+    font-weight: 700;
+}
+
