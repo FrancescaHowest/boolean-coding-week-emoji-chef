@@ -1,6 +1,11 @@
 "use strict";
 // Variables
+const NUMBEROFBOWLS = 3;
+
 let ingredients
+
+let divIngredients, divBowls;
+
 let divLoader, divModal, divModelContent, divModalClose;
 let imgModalImage;
 
@@ -10,6 +15,9 @@ window.addEventListener("load", initialize);
 
 function initialize() {
     // Get the DOM elements
+    divIngredients = document.querySelector(".ingredients");
+    divBowls = document.querySelector(".bowl");
+
     divLoader = document.querySelector(".loading");
     divModal = document.querySelector(".modal");
     divModelContent = document.querySelector(".modal-content");
@@ -26,6 +34,8 @@ function initialize() {
     //divLoader.classList.remove("hidden");
 
     getJSONData();
+
+    createBowls();
 }
 
 async function getJSONData() {
@@ -41,3 +51,16 @@ async function getJSONData() {
     .catch(error => console.log(error));
 }
 
+function createIngredientTile(ingredient) {{
+
+}}
+
+function createBowls() {
+    for (let index = 0; index < NUMBEROFBOWLS; index++) {
+        const divBowl = document.createElement("div");
+        divBowl.classList.add("bowl-slot");
+        divBowl.textContent = "?";
+
+        divBowls.appendChild(divBowl);
+    }
+}
