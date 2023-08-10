@@ -1,59 +1,67 @@
 {
-    "protein": 
-    [
-        {
-            "name": "meat",
-            "image": "🥩"
-        },
-        {
-            "name": "poultry",
-            "image": "🍗"
-        },
-        {
-            "name": "fish",
-            "image": "🐟"
-        },
-        {
-            "name": "cheese",
-            "image": "🧀"
-        }, 
-        {
-            "name": "avocado",
-            "image": "🥑"
-        },
-        {
-            "name": "egg",
-            "image":"🥚"
-        }
-    ],
-
-    "vegetables":
-    [
-        {
-            "name": "tomato",
-            "image": "🍅"
-        },
-        {
-            "name": "eggplant",
-            "image": "🍆"
-        },
-        {
-            "name": "brocolli",
-            "image": "🥦"
-        },
-        {
-            "name": "carrot",
-            "image": "🥕"
-        }, 
-        {
-            "name": "lettuce", 
-            "image": "🥬"
-        }
-    ],    
-
-    "carbs": 
+    "Protein": 
     {
-        "name": "potato",
-        "image": "🥔"
+        "Options":
+        [ 
+            {
+                "name": "meat",
+                "image": "🥩"
+            },
+            {
+                "name": "poultry",
+                "image": "🍗"
+            },
+            {
+                "name": "fish",
+                "image": "🐟"
+            },
+            {
+                "name": "cheese",
+                "image": "🧀"
+            }, 
+            {
+                "name": "avocado",
+                "image": "🥑"
+            },
+            {
+                "name": "egg",
+                "image":"🥚"
+            }
+        ]
+    },
+
+    "Vegetables": 
+    {
+        "Options":
+        [
+            {
+                "name": "tomato",
+                "image": "🍅"
+            },
+            {
+                "name": "eggplant",
+                "image": "🍆"
+            },
+            {
+                "name": "brocolli",
+                "image": "🥦"
+            },
+            {
+                "name": "carrot",
+                "image": "🥕"
+            }, 
+            {
+                "name": "lettuce", 
+                "image": "🥬"
+            }
+        ]
+    },    
+
+    "Carbs": {
+        "Options":
+        {
+            "name": "potato",
+            "image": "🥔"
+        }
     }
 }
