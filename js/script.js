@@ -45,14 +45,18 @@ async function getJSONData() {
 
         for (let ingredient in ingredients) {
             console.log(ingredient);
-            //createIngredientTile(ingredient);
+            createIngredientTile(ingredient);
         }
     })
     .catch(error => console.log(error));
 }
 
 function createIngredientTile(ingredient) {{
+    const divIngredient = document.createElement("div");
+    divIngredient.classList.add("ingredient");
+    divIngredient.textContent = ingredient["image"];
 
+    divIngredients.appendChild(divIngredient);
 }}
 
 function createBowls() {
