@@ -1,6 +1,7 @@
 {
-    "protein": 
-    [
+    "protein": {
+        "options":
+    [ 
         {
             "name": "meat",
             "image": "🥩"
@@ -25,9 +26,10 @@
             "name": "egg",
             "image":"🥚"
         }
-    ],
+    ]},
 
-    "vegetables":
+    "vegetables": {
+        "options":
     [
         {
             "name": "tomato",
@@ -49,11 +51,13 @@
             "name": "lettuce", 
             "image": "🥬"
         }
-    ],    
+    ]},    
 
-    "carbs": 
+    "carbs": {
+        "options":
     {
         "name": "potato",
         "image": "🥔"
+    }
     }
 }
